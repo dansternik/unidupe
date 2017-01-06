@@ -37,7 +37,7 @@ EditStep::EditStep(string o, FsNode* s = nullptr, FsNode* d = nullptr) : op(o) {
       throw invalid_argument("Null pointer as destination.");
    if (op != "mkdir" && op != "cp")
       throw invalid_argument("EditStep must be of type mkdir or cp.");
-
+   // Dynamically allocate and copy string contents for commands.
    size_t arg0len = op.size()+1;
    com[0] = new char[arg0len];
    op.copy(com[0], arg0len - 1);

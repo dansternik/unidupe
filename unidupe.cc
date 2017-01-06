@@ -52,7 +52,7 @@
 using namespace std;
 
 int main(int argc, char** argv) {
-   cout << "\t\t--== UniFs ==--\t\t" << endl;
+   cout << "\t\t--== unidupe ==--\t\t" << endl;
 
    // TODO Change internals so more than two directories can be merged in
    // one call by repeatedly merging the previous result of a merge with

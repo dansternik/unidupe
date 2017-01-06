@@ -41,6 +41,6 @@ class EditStep {
 
    std::string op;
    char* com[UNIFS_MAX_ARGS]; // Terminal commands used by execvp.
-   FsNode* acting;
+   FsNode* acting; // Acting node (src for copy, dst for mkdir).
 };
 

@@ -55,10 +55,16 @@
 
 using namespace std;
 
-// Global so signal handler can access these for coordinating
-// multiprocessing.
+/* Global so signal handler can access these for coordinating
+ * multiprocessing.
+ */
+// pid to FsNode*, so signal handler can find entry in editQueue and keep
+// track of running processes.
 static unordered_map<pid_t,FsNode*> editProc;
+// Values are edit steps pending the completion of mkdir of the key. Released
+// to jobs when signal handler finds mkdir of the key is complete.
 static unordered_multimap<FsNode*, EditStep> editQueue;
+// Job queue for pending steps that are now ready to run.
 static queue<EditStep> jobs;
 
 

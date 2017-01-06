@@ -445,7 +445,7 @@ void FsTree::makeFileHist(FsNode* src) {
 void FsTree::mergeDirs(FsNode* nd1, FsNode* nd2, unordered_set<FsNode*>& sups) {
    // TODO add in different logic to organize too many files (>44) into separate dirs.
    //      by creation date first, then by file type.
-   // TODO add special case for dirs when ".[...]_hist" => a tree resulting from unifs.
+   // TODO add special case for dirs when ".[...]_hist" => a tree resulting from unidupe.
    unordered_map<string, FsNode*> step_children;
    unordered_set<string> visited;
    // Check children of nd1

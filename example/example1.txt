@@ -1,0 +1,214 @@
+# Sample output with convoluted directory structure and duplicates.
+
+      --== unidupe ==--    
+Exploring tree at eg/eg1
+=== Tree 1 ===
+eg/eg1
+  d
+  c
+  j
+  a
+    5
+      16.26.pdf
+      OutguessTest.java
+      Energy Seminar_Small Group Discussion Assignments.xlsx
+      3.12.pdf
+      16.26(1).pdf
+      Problem4.pdf
+      6.25.pdf
+      Committee III Resolution Draft.docx
+    1
+    2
+    4
+    3
+  b
+    Covs3.mat
+    OSVsScaled.mat
+    Covs2.mat
+    fftCovs2.mat
+    fftOSVsScaled.mat
+    fftCovs3.mat
+  e
+  i
+    runStats K5L5Proba.mat
+  h
+    16.26.pdf
+    OutguessTest.java
+    CommitteeIIIResolutionDraft.docx
+    3.12.pdf
+    16.26(1).pdf
+    Problem4.pdf
+    6.25.pdf
+    EnergySeminar_SmallGroupDiscussionAssignments.xlsx
+  g
+  f
+    5
+    1
+    2
+    4
+    3
+
+Exploring tree at eg/eg2
+=== Tree 2 ===
+eg/eg2
+  d
+    5
+      d
+      c
+      j
+      b
+      e
+      i
+      h
+      g
+      f
+    1
+    2
+    4
+    3
+  c
+    runStatsK6L4.mat
+    fft_cov_method.m
+    covAllThree.m
+    runStatsKL8.mat
+    runStatsK4L3Proba.mat
+    runStatsK5L5Proba.mat
+    explore.m
+    runStatsKL5.mat
+    cov_method.m
+  j
+    5
+    1
+    2
+      5
+      1
+      2
+      4
+      3
+    4
+    3
+      16.26.pdf
+      OutguessTest.java
+      Energy Seminar_Small Group Discussion Assignments.xlsx
+      3.12.pdf
+      16.26(1).pdf
+      Problem4.pdf
+      6.25.pdf
+      Committee III Resolution Draft.docx
+  b
+    runStatsK6L4.mat
+    explore.py
+    log.txt
+    runStatsKL5.mat
+  e
+  i
+  h
+    16.26.pdf
+    OutguessTest.java
+    CommitteeIIIResolutionDraft.docx
+    3.12.pdf
+    16.26(1).pdf
+    Problem4.pdf
+    6.25.pdf
+    EnergySeminar_SmallGroupDiscussionAssignments.xlsx
+  g
+  f
+
+Planning merged tree at egout
+egout
+  f
+    5
+    1
+    2
+    3
+    4
+  g
+  h
+    EnergySeminar_SmallGroupDiscussionAssignments.xlsx
+    .EnergySeminar_SmallGroupDiscussionAssignments.xlsx_hist
+      Energy Seminar_Small Group Discussion Assignments.xlsx
+      EnergySeminar_SmallGroupDiscussionAssignments.xlsx
+    CommitteeIIIResolutionDraft.docx
+    .CommitteeIIIResolutionDraft.docx_hist
+      Committee III Resolution Draft.docx
+      CommitteeIIIResolutionDraft.docx
+  i
+    runStats K5L5Proba.mat
+    .runStats K5L5Proba.mat_hist
+      runStatsK5L5Proba.mat
+  e
+  b
+    runStatsKL5.mat
+    .runStatsKL5.mat_hist
+      runStatsKL5.mat
+    Covs2.mat
+    OSVsScaled.mat
+    fftCovs2.mat
+    log.txt
+    Covs3.mat
+    explore.py
+    fftOSVsScaled.mat
+    .runStatsK6L4.mat_hist
+      runStatsK6L4.mat
+    fftCovs3.mat
+    runStatsK6L4.mat
+  d
+    5
+      f
+      g
+      h
+      i
+      d
+      c
+      j
+      e
+      b
+    1
+    2
+    3
+    4
+  c
+    cov_method.m
+    explore.m
+    fft_cov_method.m
+    covAllThree.m
+    runStatsKL8.mat
+    runStatsK4L3Proba.mat
+  j
+    5
+    1
+    2
+      5
+      1
+      2
+      3
+      4
+    3
+    4
+  a
+    5
+      16.26.pdf
+      .16.26.pdf_hist
+        16.26.pdf
+      .OutguessTest.java_hist
+        OutguessTest.java
+      3.12.pdf
+      Problem4.pdf
+      16.26(1).pdf
+      .3.12.pdf_hist
+        3.12.pdf
+      .Problem4.pdf_hist
+        Problem4.pdf
+      .6.25.pdf_hist
+        6.25.pdf
+      6.25.pdf
+      OutguessTest.java
+      .16.26(1).pdf_hist
+        16.26(1).pdf
+    1
+    2
+    3
+    4
+
+Do you wish to proceed with transformation? (Y, n): Y
+Tform!

@@ -61,7 +61,7 @@ int main(int argc, char** argv) {
    // Get input paths from args.
    if (argc != 4) {
       cerr << "Error: Expected 3 arguments." << endl;
-      cerr << "\tUsage: unifs pathin1 pathin2 pathout" << endl;
+      cerr << "\tUsage: unidupe pathin1 pathin2 pathout" << endl;
       return -1;
    }
    string path1 = argv[1];

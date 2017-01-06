@@ -1,0 +1,56 @@
+# Sample output with all duplicates.
+# Note that the following pairs are duplicates in content:
+#   (s.mat, fftOSVsScaled.mat)
+#   (fftgfdfds.mat, fftCovs3.mat)
+# And duplicates in name and not content: (lo.c, lo.c)
+
+      --== unidupe ==--    
+Exploring tree at eg/eg3
+=== Tree 1 ===
+eg/eg3
+  lo.c
+  Covs3.mat
+  OSVsScaled.mat
+  Covs2.mat
+  fftCovs2.mat
+  fftOSVsScaled.mat
+  fftCovs3.mat
+
+Exploring tree at eg/eg4
+=== Tree 2 ===
+eg/eg4
+  lo.c
+  fftgfdfds.mat
+  s.mat
+  OSVsScaled.mat
+  Covs3.mat
+  Covs2.mat
+  fftCovs2.mat
+
+Planning merged tree at egout
+egout
+  Covs2.mat
+  .Covs2.mat_hist
+    Covs2.mat
+  OSVsScaled.mat
+  .OSVsScaled.mat_hist
+    OSVsScaled.mat
+  fftgfdfds.mat
+  .s.mat_hist
+    fftOSVsScaled.mat
+  .lo.c_hist
+    lo.c
+  lo.c
+  .fftgfdfds.mat_hist
+    fftCovs3.mat
+  Covs3.mat
+  .Covs3.mat_hist
+    Covs3.mat
+  s.mat
+  .fftCovs2.mat_hist
+    fftCovs2.mat
+  fftCovs2.mat
+
+Do you wish to proceed with transformation? (Y, n): Y
+Tform!
+

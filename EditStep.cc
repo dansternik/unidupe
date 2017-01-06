@@ -77,7 +77,7 @@ EditStep::EditStep(string o, FsNode* s = nullptr, FsNode* d = nullptr) : op(o) {
 
 /* // Breaks program when uncommented for some reason.
 EditStep::~EditStep() {
-   for (unsigned int i = 0; i < UNIFS_MAX_ARGS; i++) {
+   for (unsigned int i = 0; i < UNIDUPE_MAX_ARGS; i++) {
       if ( com[i] != nullptr) delete[] (com[i]);
    }
 }

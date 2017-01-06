@@ -31,7 +31,7 @@
 #include <string>
 #include "FsNode.h"
 
-#define UNIFS_MAX_ARGS 5
+#define UNIDUPE_MAX_ARGS 5
 
 class EditStep {
   public:
@@ -40,7 +40,7 @@ class EditStep {
 //   ~EditStep(); // Breaks program when uncommented for some reason.
 
    std::string op;
-   char* com[UNIFS_MAX_ARGS]; // Terminal commands used by execvp.
+   char* com[UNIDUPE_MAX_ARGS]; // Terminal commands used by execvp.
    FsNode* acting; // Acting node (src for copy, dst for mkdir).
 };
 
